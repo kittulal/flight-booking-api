@@ -121,8 +121,8 @@ GET /krish-airways/api/v1/flights/AI-203/passengers?journeyDate=2026-02-15
 ## 🚀 Running the Application
 
 ```bash
-mvn clean install
-mvn spring-boot:run
+gradlew.bat clean build
+gradlew.bat bootRun
 ```
 
 Application starts at:
